@@ -1,0 +1,4 @@
+Sitemap: http://www.libawai.com/sitemapindex.xml
+
+User-Agent: *
+Host: www.libawai.com
