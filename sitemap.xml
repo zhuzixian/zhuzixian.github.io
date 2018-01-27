@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.libawai.com/</loc>
-  <lastmod>2018-01-26T09:33:00Z</lastmod>
+  <lastmod>2018-01-27T02:20:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.libawai.com/2012/</loc>
@@ -120,6 +120,10 @@
  <url>
   <loc>http://www.libawai.com/pages/theming/</loc>
   <lastmod>2018-01-26T09:33:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.libawai.com/posts/hello/</loc>
+  <lastmod>2018-01-27T06:28:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.libawai.com/posts/welcome-to-nikola/</loc>
