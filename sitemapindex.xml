@@ -30,11 +30,35 @@
   <lastmod>2018-01-30T07:45:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://www.libawai.com/photos/2017/demo/rss.xml</loc>
+  <lastmod>2018-01-30T09:12:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.libawai.com/photos/2017/rss.xml</loc>
+  <lastmod>2018-01-30T09:12:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.libawai.com/photos/rss.xml</loc>
+  <lastmod>2018-01-30T09:12:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://www.libawai.com/rss.xml</loc>
   <lastmod>2018-01-30T08:58:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://www.libawai.com/sitemap.xml</loc>
-  <lastmod>2018-01-30T09:03:00Z</lastmod>
+  <lastmod>2018-01-30T09:12:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.libawai.com/%E7%9B%B8%E5%86%8C/2017/demo/rss.xml</loc>
+  <lastmod>2018-01-30T09:11:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.libawai.com/%E7%9B%B8%E5%86%8C/2017/rss.xml</loc>
+  <lastmod>2018-01-30T09:11:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://www.libawai.com/%E7%9B%B8%E5%86%8C/rss.xml</loc>
+  <lastmod>2018-01-30T09:11:00Z</lastmod>
  </sitemap>
 </sitemapindex>

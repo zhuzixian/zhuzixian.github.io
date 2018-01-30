@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.libawai.com/</loc>
-  <lastmod>2018-01-30T09:01:00Z</lastmod>
+  <lastmod>2018-01-30T09:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.libawai.com/2016/</loc>
@@ -58,7 +58,31 @@
   <lastmod>2018-01-30T07:41:00Z</lastmod>
  </url>
  <url>
+  <loc>http://www.libawai.com/photos/</loc>
+  <lastmod>2018-01-30T09:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.libawai.com/photos/2017/</loc>
+  <lastmod>2018-01-30T09:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.libawai.com/photos/2017/demo/</loc>
+  <lastmod>2018-01-30T09:12:00Z</lastmod>
+ </url>
+ <url>
   <loc>http://www.libawai.com/posts/capriccios/city-become-putrid/</loc>
   <lastmod>2018-01-30T09:03:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.libawai.com/%E7%9B%B8%E5%86%8C/</loc>
+  <lastmod>2018-01-30T09:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.libawai.com/%E7%9B%B8%E5%86%8C/2017/</loc>
+  <lastmod>2018-01-30T09:11:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.libawai.com/%E7%9B%B8%E5%86%8C/2017/demo/</loc>
+  <lastmod>2018-01-30T09:11:00Z</lastmod>
  </url>
 </urlset>
