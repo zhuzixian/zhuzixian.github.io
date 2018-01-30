@@ -7,7 +7,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.libawai.com/</loc>
-  <lastmod>2018-01-30T06:20:00Z</lastmod>
+  <lastmod>2018-01-30T08:58:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://www.libawai.com/2016/</loc>
+  <lastmod>2018-01-30T08:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.libawai.com/2018/</loc>
@@ -15,7 +19,7 @@
  </url>
  <url>
   <loc>http://www.libawai.com/archive.html</loc>
-  <lastmod>2018-01-30T08:24:00Z</lastmod>
+  <lastmod>2018-01-30T08:58:00Z</lastmod>
  </url>
  <url>
   <loc>http://www.libawai.com/categories/</loc>
@@ -59,6 +63,6 @@
  </url>
  <url>
   <loc>http://www.libawai.com/posts/Capriccios/city-become-putrid/</loc>
-  <lastmod>2018-01-30T08:55:00Z</lastmod>
+  <lastmod>2018-01-30T08:58:00Z</lastmod>
  </url>
 </urlset>
