@@ -134,6 +134,7 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
+        ("/", "首页"),
         ("/galleries", "相册"),
         ("/archive.html", "归档"),
         ("/categories/", "标签"),
