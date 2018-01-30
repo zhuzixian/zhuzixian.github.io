@@ -134,14 +134,15 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ("/archive.html", "文章存档"),
+        ("/galleries", "相册"),
+        ("/archive.html", "归档"),
         ("/categories/", "标签"),
-        ("/rss.xml", "RSS 源"),
+        ("/pages/about", "关于"),
     ),
 }
 
 # Name of the theme to use.
-THEME = "jidn"
+THEME = "base"
 
 # Primary color of your theme. This will be used to customize your theme and
 # auto-generate related colors in POSTS_SECTION_COLORS. Must be a HEX value.
@@ -182,12 +183,14 @@ THEME_COLOR = '#5670d4'
 #     )
 
 POSTS = (
+    ("posts/*.org", "posts", "post.tmpl"),
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.md", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
     ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
+    ("pages/*.org", "pages", "page.tmpl"),
     ("pages/*.rst", "pages", "page.tmpl"),
     ("pages/*.md", "pages", "page.tmpl"),
     ("pages/*.txt", "pages", "page.tmpl"),
@@ -263,6 +266,7 @@ TIMEZONE = "Asia/Shanghai"
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
+    "orgmode": ('.org',),
     "rest": ('.rst', '.txt'),
     "markdown": ('.md', '.mdown', '.markdown'),
     "textile": ('.textile',),
@@ -1111,19 +1115,11 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 # long time). Insert anything you want here, or even make it empty (which is
 # the default right now)
 # (translatable)
-# SOCIAL_BUTTONS_CODE = """
-# <!-- Social buttons -->
-# <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-# <a class="addthis_button_more">Share</a>
-# <ul><li><a class="addthis_button_facebook"></a>
-# <li><a class="addthis_button_google_plusone_share"></a>
-# <li><a class="addthis_button_linkedin"></a>
-# <li><a class="addthis_button_twitter"></a>
-# </ul>
-# </div>
-# <script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-# <!-- End of social buttons -->
-# """
+SOCIAL_BUTTONS_CODE = """
+<!-- Social buttons -->
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":["weixin","qzone","tsina","douban","sqq","linkedin"],"bdPic":"","bdStyle":"1","bdSize":"24"},"slide":{"type":"slide","bdImg":"2","bdPos":"right","bdTop":"249.98751831054688"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+<!-- End of social buttons -->
+"""
 
 # Show link to source for the posts?
 # Formerly known as HIDE_SOURCELINK (inverse)
@@ -1358,15 +1354,14 @@ UNSLUGIFY_TITLES = True
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {
-    "JIDN-theme": "theme-base-blue",
+#    "JIDN-theme": "theme-base-blue",
     "JIDN":{BLOG_AUTHOR: {
-        "image": "",
-
+        "image": "/images/avatar.jpg",
         "email": BLOG_EMAIL,
         "bio": "其实，我是一个诗人",
         "map": "Shanghai, China",
         "social":(
-            "http://www.libawai.com"
+            "http://www.libawai.com",
         )
     }}
 }
