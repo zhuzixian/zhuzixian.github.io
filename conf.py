@@ -630,7 +630,7 @@ REDIRECTIONS = []
 # named `default` will be executed.  You can use as many presets
 # in a `nikola deploy` command as you like.
 DEPLOY_COMMANDS = {'default': [
-    'nikola github_deploy',
+    'nikola github_deploy'
 ]}
 
 # github_deploy configuration
