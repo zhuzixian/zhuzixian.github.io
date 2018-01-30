@@ -93,7 +93,7 @@
 'copy_assets:output\\assets\\css\\theme.css', (284160, 937)
 'copy_assets:output\\assets\\css\\html4css1.css', (296960, 596)
 'copy_assets:output\\assets\\css\\baguetteBox.min.css', (330240, 614)
-'sitemap:output\\sitemap.xml', (1074688, 6822)
+'sitemap:output\\sitemap.xml', (1074688, 6943)
 'render_taxonomies:output\\categories\\cat_nikola.xml', (107008, 457)
 'render_galleries:output\\galleries', (107520, 145)
 'render_sources:output\\pages\\bootstrap-demo\\index.rst', (108032, 257)
