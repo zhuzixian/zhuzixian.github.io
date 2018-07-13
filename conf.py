@@ -1362,7 +1362,7 @@ GLOBAL_CONTEXT = {
         "bio": "其实，我是一个诗人",
         "map": "Shanghai, China",
         "social":(
-            "http://www.libawai.com",
+            "https://github.com/zhuzixian",
         )
     }}
 }
